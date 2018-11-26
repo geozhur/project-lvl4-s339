@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
+    \Log::info(
+        new \Exception("This is a manual message with context data reported to Rollbar."),
+        array("foo" => "bar")
+    );
     return view('welcome');
 });
+
