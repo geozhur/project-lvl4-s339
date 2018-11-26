@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "geozhur/taskmanagerfree",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Task Manager",
     "keywords": [
         "framework",
         "laravel"
@@ -19,7 +19,8 @@
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "phpunit/phpunit": "^7.0",
+        "squizlabs/php_codesniffer": "^3.3"
     },
     "config": {
         "optimize-autoloader": true,
